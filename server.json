@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "xyz.lonestaroracle/mcp-server",
+  "description": "Paid market-data MCP: crypto, equities, smart-money, macro, wallet PnL. x402 per call on Base.",
+  "version": "2.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.lonestaroracle.xyz/mcp"
+    }
+  ]
+}
